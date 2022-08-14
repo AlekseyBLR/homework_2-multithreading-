@@ -1,13 +1,13 @@
 package ru.digitalhabbits.homework2;
 
 import java.io.File;
-import java.util.stream.Stream;
+import java.util.List;
 
 /**
  * Sequential file reader
  */
 public interface FileReader {
 
-    Stream<String> readLines(File file);
+    List<String> readLines(File file);
 
 }
